@@ -61,7 +61,7 @@ function App() {
           value={searchString}
           onChange={event => setSearchString(event.target.value)}
           className="w-full py-2 px-4 rounded-md border border-gray-300 shadow-sm focus:outline-none focus:border-blue-500"
-          placeholder="file search"
+          placeholder="Search..."
         />
       </div>
       <FilesViewer files={filteredFiles} onBack={onBack} onOpen={onOpen} />
